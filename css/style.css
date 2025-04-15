@@ -144,11 +144,9 @@ footer {
 footer {
     width: 1000px;
     height: 50px;
-    margin-top: 10px;
-    margin-left: 448px;
+    margin: 10px auto;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    
     
     border-radius: 10px;
     text-align: center;

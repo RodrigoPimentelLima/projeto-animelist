@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
-
 }
 
 header {
@@ -47,63 +46,42 @@ body {
     top: 70px;
 }
 
-.anime-container {
-    max-width: 600px;
-    margin: auto;
-    background: linear-gradient(90deg, rgba(54,55,68,1) 25%, rgba(195,45,45,1) 77%, rgba(240,3,3,1) 100%);    border-radius: 10px;
-    border: 5px solid red;
-}
+section {
+    max-width: 1300px;
+    margin: auto;  
+  }
 
-.anime {
-    background: #fff;
-    padding: 50px;
-    border-radius: 10px;
-    margin: 10px 20px 50px 20px;
-    
-
-}
-
-.anime div {
+.container {
+    width: 1200px;
+    background-color: dimgray;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente */
+    margin-bottom: 50px;
+    padding: 50px;
+    border: ridge 10px #fff;
+    justify-content: space-evenly;
 }
 
-.anime div p {
-    color: red;
-    text-decoration: underline;
-    font-size: 20px;
+.container .filme {
+    width: 180px;
+    height: 200px;
+    border: ridge 5px #fff;
 }
 
-.anime img {
-    width: 200px;
-    height: 300px;
-    border-radius: 10px;
-    border: 5px solid black;
-    margin-left: 120px;
+.container div h3 {
+    text-align: center;
+    color: #fff;
 }
-
-
-.anime h2 {
-    margin: 10px 10px 20px 10px;
-    font-size: bold 20px;
+.container div h4 {
+    width: 150px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-
-
-footer {
-    background-color: #fff;
-
-}
-
-
 .flutuando {
     width: 200px;
     margin-top: 250px;
-    margin-left: 700px;
+    margin-left: 1100px;
     position: fixed;
     animation: float 3s ease-in-out infinite;
     z-index: 2;
@@ -113,7 +91,7 @@ footer {
 .texto-compre {
     width: 110px;
     margin-top: 395px;
-    margin-left: 755px;
+    margin-left: 1559px;
     position: fixed;
     animation: float 3s ease-in-out infinite;
     z-index: 3;
@@ -135,17 +113,16 @@ footer {
 }
 
 footer {
-    width: 599px;
-    height: 50px;
-    margin: 10px auto;
-    
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    
-    border-radius: 10px;
+     width: 1000px;
+     display: flex;
+    margin:0 auto;
     text-align: center;
-    border-radius: 10px;
-    border: 5px solid ;
-    border-color: crimson;
+    border: ridge 10px #fff;
+    background-color: #fff;
+    justify-content: center;
 }
+
+
+    
+   
+
