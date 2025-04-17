@@ -15,12 +15,12 @@ header {
     align-items: center;
     position: fixed;
     z-index: 10;
+    justify-content: center;
 }
 
 header .logo {
     position: relative;
     max-width: 100px;
-    margin-left: 520px;
 }
 
 header .navegation ul {
@@ -134,9 +134,11 @@ footer {
     }
 }
 
+
+
 footer {
     width: 599px;
-    height: 50px;
+    height: 70px;
     margin: 10px auto;
     
     display: flex;
