@@ -14,12 +14,13 @@ header {
     align-items: center;
     position: fixed;
     z-index: 10;
+    justify-content: center;
 }
 
 header .logo {
     position: relative;
     max-width: 100px;
-    margin-left: 520px;
+   
 }
 
 header .navegation ul {
@@ -49,6 +50,8 @@ body {
 section {
     max-width: 1300px;
     margin: auto;  
+    
+   
   }
 
 .container {
@@ -78,27 +81,19 @@ section {
     text-align: center;
 }
 
-.flutuando {
-    width: 200px;
-    margin-top: 250px;
-    margin-left: 1100px;
-    position: fixed;
-    animation: float 3s ease-in-out infinite;
-    z-index: 2;
-
+.data {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-.texto-compre {
-    width: 110px;
-    margin-top: 395px;
-    margin-left: 1559px;
-    position: fixed;
-    animation: float 3s ease-in-out infinite;
-    z-index: 3;
-    color: #fff;
 
-
-}
 
 @keyframes float {
 
