@@ -49,7 +49,7 @@ body {
 
 .anime-container {
     max-width: 600px;
-    margin-left: 500px;
+    margin-left: 650px;
     background: linear-gradient(90deg, rgba(54,55,68,1) 25%, rgba(195,45,45,1) 77%, rgba(240,3,3,1) 100%);    border-radius: 10px;
     border: 5px solid red;
 }
